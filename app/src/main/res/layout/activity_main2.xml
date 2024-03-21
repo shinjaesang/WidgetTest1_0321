@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:text="@string/gender"
+        android:gravity="center"
         android:textSize="@dimen/marginMedium"
 
         />
@@ -34,6 +34,27 @@
         android:layout_marginLeft="@dimen/textSizeSmall" />
     </RadioGroup>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="버튼1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="버튼3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
-
+        android:text="버튼4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼5"/>
 </LinearLayout>
